@@ -1,0 +1,29 @@
+{
+  "name": "James Bulpin hacks registry",
+  "documentation": "...",
+  "version": "1.0.0",
+  "items": [
+    {
+      "_id": "meshblu-connector-huebounce",
+      "name": "Hue bouncer",
+      "description": "Meshblu Connector for Hue bouncing",
+      "type": "device:huebounce",
+      "tags": ["Smart Spaces hacks"],
+      "githubSlug": "jamesbulpin/meshblu-connector-huebounce",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/jamesbulpin/meshblu-connector-huebounce",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid",
+      "iconUri": "https://s3.amazonaws.com/octoblu/hue-bounce.svg"
+    },
+    {
+      "_id": "meshblu-connector-ledbutton",
+      "name": "LED Button",
+      "description": "USB-connected LED illuminated push button",
+      "type": "device:ledbutton",
+      "tags": ["Smart Spaces hacks"],
+      "githubSlug": "jamesbulpin/meshblu-connector-ledbutton",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/jamesbulpin/meshblu-connector-ledbutton",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid",
+      "iconUri": "https://s3.amazonaws.com/octoblu/ledbutton.svg"
+    }
+  ]
+}
