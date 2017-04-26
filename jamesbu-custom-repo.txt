@@ -12,7 +12,7 @@
       "githubSlug": "jamesbulpin/meshblu-connector-huebounce",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/jamesbulpin/meshblu-connector-huebounce",
       "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid",
-      "iconUri": "https://s3.amazonaws.com/octoblu/hue-bounce.svg"
+      "iconUri": "https://raw.githubusercontent.com/jamesbulpin/my-meshblu-connectors/master/icons/hue-bounce.svg"
     },
     {
       "_id": "meshblu-connector-ledbutton",
@@ -23,7 +23,7 @@
       "githubSlug": "jamesbulpin/meshblu-connector-ledbutton",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/jamesbulpin/meshblu-connector-ledbutton",
       "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid",
-      "iconUri": "https://s3.amazonaws.com/octoblu/ledbutton.svg"
+      "iconUri": "https://raw.githubusercontent.com/jamesbulpin/my-meshblu-connectors/master/icons/ledbutton.svg"
     }
   ]
 }
