@@ -24,6 +24,17 @@
       "createUri": "https://connector-factory.octoblu.com/connectors/create/jamesbulpin/meshblu-connector-ledbutton",
       "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid",
       "iconUri": "https://s3.amazonaws.com/octoblu/ledbutton.svg"
+    },
+    {
+      "_id": "meshblu-connector-ws2811",
+      "name": "WS2811 LEDs",
+      "description": "Individually addressable WS2811 LED string driver via Raspberry Pi",
+      "type": "device:ws2811rpi",
+      "tags": ["Smart Spaces hacks"],
+      "githubSlug": "jamesbulpin/meshblu-connector-ws2811",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/jamesbulpin/meshblu-connector-ws2811",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid",
+      "iconUri": "https://s3.amazonaws.com/octoblu/ws2811.svg"
     }
   ]
 }
