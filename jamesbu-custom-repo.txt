@@ -1,7 +1,7 @@
 {
   "name": "James Bulpin hacks registry",
   "documentation": "...",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "items": [
     {
       "_id": "meshblu-connector-huebounce",
@@ -35,6 +35,17 @@
       "createUri": "https://connector-factory.octoblu.com/connectors/create/jamesbulpin/meshblu-connector-ws2811",
       "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid",
       "iconUri": "https://s3.amazonaws.com/octoblu/ws2811.svg"
+    },
+    {
+      "_id": "meshblu-connector-raspi-gpio",
+      "name": "Raspberry Pi GPIO",
+      "description": "Simple Raspberry Pi GPIO input and output",
+      "type": "device:raspi-gpio",
+      "tags": ["Smart Spaces hacks"],
+      "githubSlug": "jamesbulpin/meshblu-connector-raspi-gpio",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/jamesbulpin/meshblu-connector-raspi-gpio",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid",
+      "iconUri": "https://s3.amazonaws.com/octoblu/raspi-gpio.svg"
     }
   ]
 }
