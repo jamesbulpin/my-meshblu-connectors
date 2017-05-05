@@ -46,6 +46,17 @@
       "createUri": "https://connector-factory.octoblu.com/connectors/create/jamesbulpin/meshblu-connector-raspi-gpio",
       "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid",
       "iconUri": "https://s3.amazonaws.com/octoblu/raspi-gpio.svg"
+    },
+    {
+      "_id": "meshblu-connector-powerpoint",
+      "name": "PowerPoint slideshow",
+      "description": "PowerPoint slideshow remote control",
+      "type": "device:powerpoint",
+      "tags": ["Meeting room hacks"],
+      "githubSlug": "jamesbulpin/meshblu-connector-powerpoint",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/jamesbulpin/meshblu-connector-powerpoint",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid",
+      "iconUri": "https://s3.amazonaws.com/octoblu/powerpoint.svg"
     }
   ]
 }
